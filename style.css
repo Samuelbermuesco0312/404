@@ -1,0 +1,133 @@
+/* font-family: 'Inconsolata', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Space Mono', monospace; */
+
+body{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+h5{
+    font-family: 'Inconsolata', monospace;
+    size: 24px;
+    line-height: 25.18px;
+    color: #333333;
+}
+
+#logo img{
+    width: 286.83px;
+    height: 220.35px;
+}
+#logo{
+    text-align: center;
+}
+.title{
+    font-family: Space Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 71px;
+letter-spacing: -0.035em;
+
+/* Gray 1 */
+
+color: #333333;
+}
+
+.maintext{
+    font-family: Space Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: -0.035em;
+
+/* Gray 2 */
+
+color: #4F4F4F;
+}
+.contenedorboton{
+width: 216px;
+height: 50px;
+text-align: center;
+padding-top: 30px;
+
+/* Gray 1 */
+
+background: #333333;
+}
+
+#boton{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-family: 'Space Mono', monospace;
+
+}
+footer p{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+
+color: #BDBDBD;
+}
+
+footer p a{
+    color: #BDBDBD;
+    
+}
+
+@media (min-width: 768px) {
+
+    body{
+        margin: 50px;
+    }
+    
+
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+
+}
+
+#logo img{
+    Width:539.22px;
+
+    Height: 414.25px;
+}
+
+h1{
+    font-size: 64px;
+
+}
+h5{
+
+    size: 24px;
+    line-height: 25.18px;
+}
+
+.maincontainer{
+    width: 586px;
+    height: 190px;
+    
+}
+
+.maintext{
+    width: 381px;
+    height: 108px;
+}
+
+
+
+
+
+}
